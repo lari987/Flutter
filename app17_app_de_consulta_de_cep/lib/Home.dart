@@ -100,7 +100,7 @@ _corpo(){
          border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(40)
          ),
-         hintText: 'Digite seu login...',
+         hintText: 'Digite seu cep...',
       ),
    ),
  );  
@@ -129,7 +129,7 @@ _button() {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Icon(Icons.done),
+                    Icon(Icons.done, color: Colors.white),
                   ],
                 ),
         ),

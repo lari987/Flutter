@@ -18,7 +18,7 @@ class _HomeState extends State<Home> {
     http.Response response = await http.get(Uri.parse(url));
     Map<String, dynamic> retorno = json.decode(response.body);
  
-    setState(() {
+   setState(() {
       int id = retorno["id"];
       String nome = retorno["name"];
       int repositorios = retorno["public_repos"];
